@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">    <!--如果出现乱码，则将utf-8改为gbk-->
+    <style>
+        p {font-family:arial; color:red; font-size:26px; text-align:center} <!-- 在头部可以批量设置样式 -->
+        <!-- table {margin: auto} -->     <!-- 可以在头部设置表格的居中 -->
+    </style>
+</head>
+
+<body>   <!-- body为定义网页的具体内容 -->
+    <p style="font-family:arial; color:red; font-size:26px;">华小智舆情监控系统</p>
+    <p>这里面就不再需要设置样式啦</p>
+    <p style="color:black">这里大内容我想设置成黑色</p>   <!-- 此处为单独设置样式(注意写法是<p开头)  -->
+
+    <table border="1" style="margin: auto">    <!-- table为表格属性;style="margin: auto"为设置表格居中 -->
+        <!-- margin参数设置的表格边距，即与屏幕左右边框的距离。这里设置auto：意思是自动调整边距，这样浏览器会把表格自动调整为居中显示，还可以在头部设置-->
+        <tr>              <!-- tr为设置为每行内容 -->
+            <th>公司名称</th>    <!-- th为设置表头 -->
+            <th>新闻标题</th>
+        </tr>
+        <tr>
+            <td>阿里巴巴</td>     <!-- td为设置单元格内容 -->
+            <td>
+                <ol>      <!-- ol为设置有序列表(列表项以数字序号开头)，ul为设置无序列表(列表项以项目符号开头) -->
+                    <li>这是阿里巴巴在百度新闻上的第一条标题</li>   <!-- li为设置列表中的每一项内容 -->
+                    <li>这是阿里巴巴在百度新闻上的第二条标题</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
+<!-- 建议在头部标签里批量设置样式。原因是<table>标签里还有很多<th>、<tr>、<td>标签，如果为每一个便签都单独设置样式，就太琐碎了。-->
+<!-- 设计表格边框，先把table border="1"删掉，因为这种方式设置的边框不好看。接着设置表头和每一个单元格的边框样式，在<head>标签中设置表格
+居中显示的样式下方补充如下内容：
+table th {border:1px solid #729EA5}
+table td {border:1px solid #729EA5}
+其中table th和table td分别表示要为表格的表头和单元格设置样式，样式的内容相同，其中border参数有三个值：第一个值表示设置边框粗细为1像素
+#第2个值表示设置边框的线型为实线，第三个参数值表示设置边框的颜色为#729EA5(一种蓝色)
+
+现在的样式效果有一个小问题：各边框之间是分开的。我们想让它们都合并在一起，只要在table {margin: auto}中再加一个自动组合边框的样式设置
+border-collapse:collapse。汇总代码如下
+table {margin: auto；border-collapse:collapse}
+table th {border:1px solid #729EA5}
+table td {border:1px solid #729EA5}
+
+此时文字和边框靠得太近，可以通过padding参数设置内边距，让文字和边框的间距大一些
+table {margin: auto；border-collapse:collapse}
+table th {border:1px solid #729EA5；padding:8px}
+table td {border:1px solid #729EA5; padding:8px}
+
+此时表头还不够突出，可以通过正在table th中添加background-color:#ACC8CC,为表头设置颜色，其中background-color是背景颜色的意思，#ACC8CC是一种深蓝色
+table {margin: auto；border-collapse:collapse}
+table th {border:1px solid #729EA5；padding:8px; background-color:#ACC8CC}
+table td {border:1px solid #729EA5; padding:8px}   -->

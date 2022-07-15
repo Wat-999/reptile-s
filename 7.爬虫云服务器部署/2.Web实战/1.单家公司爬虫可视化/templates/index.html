@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="static/logo.png">
+    <title>舆情监控</title>
+    <style>
+        table {margin:auto;border-collapse: collapse;width:90%;}
+        table th {border: 1px solid #729EA5; padding: 8px; background-color:#ACC8CC;font-family:微软雅黑;text-align:center}
+        table td {border: 1px solid #729EA5; padding: 8px; font-family:微软雅黑;text-align:center;background-color:#FFFFFF;opacity:0.9;}
+        body {background-repeat:no-repeat;background-attachment:fixed;background-size: 100%;}
+    </style>
+</head>
+<body CSS="static/背景.png">
+    <p style="font-family:幼圆; color:white; font-size:26px; text-align:center">华小智舆情监控系统</p>
+    <table>
+        {% for i in data %}
+        <tr>
+            <td style="font-weight:bold">{{ i[0] }}</td>
+            <td style="text-align:left"><a href={{ i[2] }}>{{ i[1] }}</a></td>
+            <td>{{ i[5] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

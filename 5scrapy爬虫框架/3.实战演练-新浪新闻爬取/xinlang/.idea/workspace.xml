@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca3ac1e6-19ee-45d5-997b-88bbd1956b46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jiPD3pBUKC5DVb9Clk4lTGzucu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.wind爬取">
+    <configuration name="常规方法获取图片" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xinlang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../5.综合案例2-豆瓣电影图片爬取" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../5.综合案例2-豆瓣电影图片爬取/常规方法获取图片.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xinlang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../5.补充知识点：Python类的相关知识" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../5.补充知识点：Python类的相关知识/Python类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wind爬取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xinlang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/华小智金融科技团队/出书/Python与办公自动化/资金雷达/资金雷达2-2020-11-03" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/华小智金融科技团队/出书/Python与办公自动化/资金雷达/资金雷达2-2020-11-03/wind爬取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xina" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xinlang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinlang/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinlang/spiders/xina.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wind爬取" />
+        <item itemvalue="Python.常规方法获取图片" />
+        <item itemvalue="Python.Python类" />
+        <item itemvalue="Python.xina" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca3ac1e6-19ee-45d5-997b-88bbd1956b46" name="Default Changelist" comment="" />
+      <created>1604283816211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604283816211</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2539" height="492" key="GridCell.Tab.0.bottom" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="526" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604389796116" />
+    <state width="2539" height="492" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.0.center" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="526" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604389796116" />
+    <state width="2539" height="492" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.0.left" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="526" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604389796116" />
+    <state width="2539" height="492" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.0.right" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="526" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604389796116" />
+    <state width="2539" height="492" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1604403690174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604308799620" />
+    <state width="2539" height="492" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690174" />
+    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604308799620" />
+    <state width="2539" height="492" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1604403690172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604308799620" />
+    <state width="2539" height="492" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690172" />
+    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1604403690173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2539" height="492" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604308799620" />
+    <state width="2539" height="492" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1604403690173" />
+    <state x="-1600" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1604283868475">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1600" y="524" key="com.intellij.ide.util.TipDialog/-2560.0.2560.1400/0.0.1920.1040@-2560.0.2560.1400" timestamp="1604283868475" />
+  </component>
+</project>

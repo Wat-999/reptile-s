@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="static/logo.png">
+    <title>舆情监控</title>
+    <style>
+        table {margin:auto;border-collapse: collapse;width:90%;}
+        table th {border: 1px solid #729EA5; padding: 8px; background-color:#ACC8CC;font-family:微软雅黑;text-align:center}
+        table td {border: 1px solid #729EA5; padding: 8px; font-family:微软雅黑;text-align:center;background-color:#FFFFFF;opacity:0.9;}
+        body {background-repeat:no-repeat;background-attachment:fixed;background-size: 100%;}
+    </style>
+</head>
+<body background="static/背景.png">
+    <p style="font-family:幼圆; color:white; font-size:26px; text-align:center">华小智舆情监控系统</p>
+    <table>
+        <tr>
+            <th>项目公司</th>
+            <th>主流网站信息</th>
+            <th>当日评分</th>
+        </tr>
+        {% for key, value in data_all.items() %}
+            <tr>
+                <td style="font-weight:bold">{{ key }}</td>
+                <td style="text-align:left">
+                    <ol>
+                        {% for i in value %}
+                            <li><a href={{ i[2] }} target="_blank">{{ i[1] }}</a></li>
+                        {% endfor %}
+                    </ol>
+                </td>
+                <td>{{ 90 }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
